@@ -25,16 +25,19 @@ a {
 }
 a:visited {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 a:hover {
   cursor: pointer;
+  text-decoration: none;
   
 }
 .navigation-links {
     display: flex;
     margin-top: 40px;
     justify-content: center;
+    text-decoration: none;
 }
 .about-paragraphs {
   display: flex;
