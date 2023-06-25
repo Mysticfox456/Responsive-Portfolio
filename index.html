@@ -35,27 +35,172 @@
     ></script>
   </head>
   <body>
-    <div>
-      <h2>🙋🏼‍♀️ Hello I'm</h2>
+    <div class="heading container">
+      <nav>
+        <a href="/" title="Homepage">
+          <img
+            src="images/mt-logo.png"
+            class="logo d-none d-sm-block"
+            alt="Miranda's logo"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Miranda">About</a></li>
+          <li>
+            <a href="/work.html" title="Miranda's Work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Miranda">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero">
+      <p>Hello, I am</p>
       <h1>Miranda Talbot</h1>
-      <h3>🍁Front-End Developer, based in Canada</h3>
-      <img
-        src="https://pozi.com/static/img/undraw/undraw_portfolio_re_qwm5.svg"
-        alt="Women-table-img"
-        width="500px"
-        height="400px"
-      />
-      <h3>"This is the beginning of a <em>Beautiful Journey.</em>"</h3>
+      <h2 class="mb-5">Front-end developer based in Ontario, Canada</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
+      </div>
     </div>
-    <div class="navigation-links">
-      <a href="about-me.html" class="about-link">About me</a>
-      <a href="project.html" class="project">My Projects</a>
-      <a href="about-me.html#contact-me" class="contact-link">Contact me</a>
+    <h2 class="text-center m-5">Check out some of my projects below!<h2>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/gardening.png"
+            class="img-fluid rounded"
+            alt="Gardening project"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Gardening Project</h2>
+            <p class="mb-5 text-muted">
+              I entered the world of front-end development by gaining some
+              knowledge in HTML, CSS, and JavaScript. I used my knowledge of
+              these languages, along with my new skills in VS Code, to build a
+              landing page about Container Gardening. The page utilizes
+              JavaScript functions to create user interaction, as well as a dark
+              mode theme.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Weather Project</h2>
+            <p class="mb-5 text-muted">
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. Building upon my
+              previously-gained knowledge, I also became skilled in Bootstrap,
+              API's, real-life development workflow, hosting, and advanced
+              JavaScript. I combined all of these skills to create a functioning
+              weather app.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >Learn more
+            </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/project-3.png"
+            class="img-fluid rounded"
+            alt="Weather project"
+          />
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/world-clock.png"
+            class="img-fluid rounded"
+            alt="World Clock project"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">World Clock Project</h2>
+            <p class="mb-5 text-muted">
+              I chose to fine tune my skills in JavaScript and API's to create
+              an additional fully-functioning world clock. I incorporated
+              coding's best practices, along with the most popular tools and
+              technologies. Users can also pull their current location time. To
+              wrap the project up I added tasteful design with HTML and CSS.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together! 😊</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Miranda"
+            >
+              Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:mysticfox456@gmail.com"
+            class="email-link"
+            title="Email Miranda"
+          >
+            mysticfox456@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="mailto:mysticfox456@gmail.com"
+            target="_blank"
+            title="Email Miranda"
+          >
+            <i class="fa-solid fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/Mysticfox456"
+            target="_blank"
+            title="Github Profile"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/miranda-talbot-2931b726b/"
+            target="_blank"
+            title="Linkedin Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="open-sourced text-center mt-5">
+          🌸 This project was coded by Miranda Talbot, and it is
+          <a
+            href="https://github.com/Mysticfox456/Responsive-Portfolio"
+            target="_blank"
+            >open-sourced </a
+          >🌸
+        </p>
+      </footer>
     </div>
-    <footer>
-      <i class="fa-solid fa-certificate" style="color: #da96e8"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-github"></i>
-    </footer>
   </body>
 </html>
